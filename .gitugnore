@@ -38,5 +38,6 @@ intermediate
 publish
 .idea
 
+app.js
 node_modules
 bower_components
