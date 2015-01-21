@@ -7,9 +7,12 @@ router.get('/', function(req, res, next) {
   var client = app.get('twilio');
 
   // client.calls.create({
-  //   url: "http://demo.twilio.com/docs/voice.xml",
+  //   url: 'http://demo.twilio.com/docs/voice.xml',
   //   to: '+819017551440',
-  //   from: '+815031540381'
+  //   from: '+815031540381',
+  //   statusCallback: 'http://54.65.140.79:3000/recording-callback',
+  //   statusCallbackMethod: 'POST', 
+  //   record: true // 録音をする
   // }, function(err, call) {
   //   process.stdout.write(call.sid);
   // });
