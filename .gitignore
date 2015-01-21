@@ -38,6 +38,7 @@ intermediate
 publish
 .idea
 
+sftp-config.json
 app.js
 node_modules
 bower_components
